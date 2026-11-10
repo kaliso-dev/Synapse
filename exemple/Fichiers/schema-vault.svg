@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="250" viewBox="0 0 560 250" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13">
+  <title>Structure d'un vault : l'accueil relie les notes d'index, chaque index relie les notes de son dossier</title>
+  <rect width="560" height="250" rx="12" fill="#f6f8fa"/>
+  <g stroke="#8c959f" stroke-width="1.5" fill="none">
+    <path d="M280 52 L120 118 M280 52 L280 118 M280 52 L440 118"/>
+    <path d="M120 140 L60 200 M120 140 L120 200 M120 140 L180 200"/>
+    <path d="M280 140 L250 200 M280 140 L310 200"/>
+    <path d="M440 140 L400 200 M440 140 L480 200"/>
+    <path d="M180 212 Q 220 236 250 212" stroke-dasharray="4 4"/>
+  </g>
+  <g>
+    <rect x="225" y="24" width="110" height="30" rx="15" fill="#2f6feb"/>
+    <text x="280" y="44" text-anchor="middle" fill="#fff" font-weight="600">Accueil</text>
+    <rect x="65" y="114" width="110" height="28" rx="14" fill="#e5484d"/>
+    <text x="120" y="133" text-anchor="middle" fill="#fff" font-weight="600">Projets</text>
+    <rect x="225" y="114" width="110" height="28" rx="14" fill="#30a46c"/>
+    <text x="280" y="133" text-anchor="middle" fill="#fff" font-weight="600">Personnes</text>
+    <rect x="385" y="114" width="110" height="28" rx="14" fill="#8e4ec6"/>
+    <text x="440" y="133" text-anchor="middle" fill="#fff" font-weight="600">Sources</text>
+  </g>
+  <g fill="#ffffff" stroke="#d0d7de">
+    <circle cx="60" cy="208" r="9"/><circle cx="120" cy="208" r="9"/><circle cx="180" cy="208" r="9"/>
+    <circle cx="250" cy="208" r="9"/><circle cx="310" cy="208" r="9"/><circle cx="400" cy="208" r="9"/><circle cx="480" cy="208" r="9"/>
+  </g>
+  <text x="280" y="240" text-anchor="middle" fill="#57606a" font-size="12">notes d'index (une par dossier) · notes · un lien direct entre deux dossiers (pointillés)</text>
+</svg>

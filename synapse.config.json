@@ -1,0 +1,11 @@
+{
+  "titre": "Synapse · exemple",
+  "vault": "exemple",
+  "fichiers": "vault",
+  "sortie": "_site",
+  "accueil": "Accueil",
+  "exclure": ["Modèles"],
+  "groupes": {
+    "": { "nom": "Accueil" }
+  }
+}
